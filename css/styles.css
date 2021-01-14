@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(240, 227, 208);
+}
+
+header {
+  display:flex;
+  justify-content: space-between;
+  background-color: #131921;
+  color: #ff9900;
+}
+
+.hidden {
+  display: none;
+}
+
+
+#shop {
+  width:90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {}
+
+
+.col {
+  height: 100px;
+  margin: 10px;
+  user-select:none;
+  background-color: rgb(253, 239, 219); 
+}
+
+.col:hover {
+  box-shadow: 3px 3px #131921, -3px -3px #ff9900;
+}
+
+.col:active {
+  background-color: #131921;
+  color: #ff9900;
+}
+
+.col .content {
+  height:80%;
+  margin: 0px;
+}
+
+.col p {
+  margin: 0px;
+}
+
+.col .price {
+  margin:0px;
+  border-top: 1px solid black;
+}
