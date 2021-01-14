@@ -1,12 +1,11 @@
-# {Project Name}
-#### *Co-Created By:*
-#### *Co-Created By:*
-#### *{Brief Project Description}*
+# MarketPlace
+#### *Created By: Jonah Johansen*
+#### *Shopping Site with cart*
 
 * * *
 
 ## Description  
-{project description}
+This is a static site I am working on to practice implementing a shop interface. 
 
 * * *
 
@@ -21,7 +20,7 @@
 * * *
 
 ## Setup instructions:  
-* Go to [Github Pages](https://jjohan-work.github.io/#) to see webpage
+* Go to [Github Pages](#) _not up currently_ to see webpage
 #### Alt
 * Clone Repo
 * Open index.html in browser
@@ -29,13 +28,14 @@
 * * *
 
 ## To Do:
-* {future changes to the project}
+* Currently it will only store the cart in the DOM but eventually I want to tie it into SQL and keep both the products and users carts on the database and generate them dynamically
+* user login and memory functionality
 
 * * *
 
 ## Addition comments:
-* Created on x/x/21  
-* Currently in development and unfinished (*as of x/x/21*)
+* Created on 1/13/21  
+* Currently in development and unfinished (*as of 1/13/21*)
 
 * * *
 

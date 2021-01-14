@@ -1,10 +1,19 @@
-
 let openWindow = "#shop";
-
+cart = [];
 
 function winDraw(curWin) {
   $(".section").hide();
   $(curWin).show();
+}
+
+function generateCart(cartList) {
+  for (let i=0; i < cartList.length;i++) {
+    $("#cartList").append('<li id='+cartList[i]+'>'+cartList[i]+'</li>');
+  }
+}
+
+function clearCart() {
+  $("#cartList").empty();
 }
 
 $(document).ready(function() {
@@ -12,12 +21,16 @@ $(document).ready(function() {
 
   $('#toCart').click(function () {
     openWindow = "#cart";
-    console.log(openWindow);
     winDraw(openWindow);
+    clearCart();
+    generateCart(cart);
   });
   $('#toShop').click(function () {
     openWindow = "#shop";
-    console.log(openWindow);
     winDraw(openWindow);
+  });
+  $("#shop .col").click(function () {
+    cart.push(this.id);
+    console.log(cart);
   });
 });
