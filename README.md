@@ -5,7 +5,7 @@
 * * *
 
 ## Description  
-This is a static site I am working on to practice implementing a shop interface. 
+This is a project to practice implementing a shop interface. 
 
 * * *
 
@@ -20,7 +20,7 @@ This is a static site I am working on to practice implementing a shop interface.
 * * *
 
 ## Setup instructions:  
-* Go to [Github Pages](#) _not up currently_ to see webpage
+* Go to [Github Pages](https://jjohan-work.github.io/Marketplace/.) to see webpage
 #### Alt
 * Clone Repo
 * Open index.html in browser
